@@ -1,5 +1,5 @@
 import 'dart:io';
-import 'package:gast_number/game.dart';
+import 'package:guess_number/game.dart';
 //import 'dart:math';
 //UX --> User Experience
 void main(){
@@ -85,7 +85,7 @@ void main(){
   while(time==0);
 
   var AllPlay = myList.length;
-  print("'you've play $AllPlay games");
+  print("you've play $AllPlay games");
 
   for (var i = 0; i < myList.length; i++) {
     var Allguess = myList[i];
