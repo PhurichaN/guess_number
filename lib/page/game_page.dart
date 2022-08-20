@@ -105,6 +105,7 @@ class _GamePageState extends State<GamePage> {
               style: OutlinedButton.styleFrom(
                 backgroundColor: _showTestButton ? Colors.black : Colors.pink,
               ),
+              //ไม่มีให้คลิก
               onPressed: (){},
               child: const Text('TEST'),
             ),
